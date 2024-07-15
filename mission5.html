@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポケモンAPIデータ表示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #data-container {
+            margin-top: 20px;
+        }
+        .data-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        img {
+            max-width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ポケモンAPIデータ表示</h1>
+    <input type="text" id="pokemon-name" placeholder="ポケモンの名前を入力">
+    <button id="fetch-button">検索</button>
+    <div id="data-container"></div>
+
+    <script src="./mission5.js"></script>
+</body>
+</html>
